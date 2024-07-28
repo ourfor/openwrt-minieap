@@ -19,7 +19,7 @@ define Package/$(PKG_NAME)
 	CATEGORY:=Network
 	TITLE:=Extensible 802.1x client with Ruijie v3 (v4) plugin
 	MAINTAINER:=updateing
-	URL:=https://github.com/updateing/minieap
+	URL:=https://github.com/ourfor/minieap
 endef
 
 define Package/$(PKG_NAME)/install
