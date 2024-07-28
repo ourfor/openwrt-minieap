@@ -5,7 +5,7 @@
          return;
      }
 -#ifdef __linux__
-+    PR_WARN("请使用 --fake-serial 选项手动指定硬盘序列号");
++    // PR_WARN("请使用 --fake-serial 选项手动指定硬盘序列号");
 +#if 0
      FILE* _fp = fopen("/etc/mtab", "r");
      char _line_buf[MAX_LINE_LEN] = {0};
